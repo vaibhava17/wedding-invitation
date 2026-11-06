@@ -13,6 +13,7 @@ export const STRINGS = {
     'gate.guest': 'स्नेही स्वजन',
     'gate.couple': 'विभोर संग दीपांशी',
     'gate.date': 'गुरूवार, 10 दिसम्बर 2026',
+    'gate.dateFull': '9 व 10 दिसम्बर 2026',
     'gate.open': 'निमंत्रण खोलें',
     'gate.hint': 'द्वार खोलने के लिए छुएं',
 
@@ -21,6 +22,7 @@ export const STRINGS = {
     'hero.bride': 'दीपांशी',
     'hero.sang': 'संग',
     'hero.date': 'गुरूवार, 10 दिसम्बर 2026',
+    'hero.dateFull': '9 व 10 दिसम्बर 2026',
     'hero.place': 'होटल सीता किरण, सिविल लाइन्स, बरेली',
     'hero.scroll': 'नीचे स्क्रॉल करें',
     'cd.days': 'दिन', 'cd.hours': 'घंटे', 'cd.mins': 'मिनट', 'cd.secs': 'सेकंड',
@@ -118,6 +120,7 @@ export const STRINGS = {
     'gate.guest': 'family & friends',
     'gate.couple': 'Vibhor & Deepanshi',
     'gate.date': 'Thursday, 10 December 2026',
+    'gate.dateFull': '9 & 10 December 2026',
     'gate.open': 'Open the invitation',
     'gate.hint': 'Tap to open the doors',
 
@@ -126,6 +129,7 @@ export const STRINGS = {
     'hero.bride': 'Deepanshi',
     'hero.sang': '&',
     'hero.date': 'Thursday, 10 December 2026',
+    'hero.dateFull': '9 & 10 December 2026',
     'hero.place': 'Hotel Sita Kiran, Civil Lines, Bareilly',
     'hero.scroll': 'Scroll down',
     'cd.days': 'Days', 'cd.hours': 'Hours', 'cd.mins': 'Minutes', 'cd.secs': 'Seconds',

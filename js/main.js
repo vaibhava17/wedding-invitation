@@ -24,6 +24,8 @@ const qs = new URLSearchParams(location.search);
 const FULL = ['full', 'all'].includes((qs.get('invite') || '').toLowerCase()) || qs.has('full');
 if (FULL) {
   document.getElementById('prewedding').hidden = false;
+  // full invite spans both days: top date lines read "9 & 10 Dec" instead of the wedding day only
+  document.querySelectorAll('[data-i18n="gate.date"], [data-i18n="hero.date"]').forEach((el) => { el.dataset.i18n += 'Full'; });
   document.querySelectorAll('.pw-scene').forEach((el) => { el.innerHTML = prewedScene(el.dataset.scene); });
 }
 const clamp01 = (x) => Math.min(1, Math.max(0, x));
